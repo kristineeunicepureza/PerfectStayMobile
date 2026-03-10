@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_margin="8dp"
+    android:background="@android:color/white"
+    android:elevation="2dp">
+
+    <ImageView
+        android:id="@+id/booking_hotel_image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        tools:src="@tools:sample/avatars"
+        android:contentDescription="Hotel Image" />
+
+    <TextView
+        android:id="@+id/booking_hotel_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        tools:text="Cebu Parklane International Hotel" />
+
+    <TextView
+        android:id="@+id/booking_dates"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textSize="14sp"
+        android:textColor="@android:color/darker_gray"
+        tools:text="May 10 - May 15, 2025" />
+
+    <TextView
+        android:id="@+id/booking_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        tools:text="$120.00" />
+
+    <TextView
+        android:id="@+id/booking_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        tools:text="Upcoming" />
+
+    <TextView
+        android:id="@+id/booking_timestamp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textSize="12sp"
+        android:textColor="@android:color/holo_green_dark"
+        tools:text="Paid on: 2025-05-03 20:28:00"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/booking_overpayment_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textSize="14sp"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textStyle="bold"
+        android:visibility="gone"
+        tools:text="Change: +$10.00" />
+
+
+    <Button
+        android:id="@+id/btn_pay_now"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Pay Now"
+        android:layout_gravity="end"
+        android:backgroundTint="#FF5722"
+        android:textColor="@android:color/white"/>
+
+</LinearLayout>

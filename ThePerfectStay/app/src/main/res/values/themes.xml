@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.ThePerfectStay" parent="Theme.MaterialComponents.Light.NoActionBar" />
+
+    <style name="Theme.Kotlin.SplashScreen" parent="Theme.ThePerfectStay">
+        <item name="android:windowBackground">@drawable/orange</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="OrangeSwitchCompatTheme" parent="Widget.AppCompat.CompoundButton.Switch">
+        <item name="colorControlActivated">#FF9800</item>
+        <item name="thumbTint">#FFB74D</item>
+        <item name="trackTint">#FFE0B2</item>
+    </style>
+
+</resources>

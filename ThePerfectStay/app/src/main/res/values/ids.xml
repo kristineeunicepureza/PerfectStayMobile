@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="buttonLogout" type="id" />
+    <item name="buttonProfilePage" type="id" />
+    <item name="buttonSettingsPage" type="id" />
+    <item name="places_recycler_view" type="id" />
+    <item name="bookings_recycler_view" type="id" />
+    <item name="empty_bookings_view" type="id" />
+    <item name="booking_hotel_image" type="id" />
+    <item name="booking_price" type="id" />
+    <item name="booking_timestamp" type="id" />
+</resources>
